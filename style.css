@@ -1,0 +1,167 @@
+.título{
+    position: absolute;
+    width: 750px;
+    height: 89px;
+    left: 344px;
+    top: 22px;
+
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 128px;
+    text-align: center;
+
+    color: #646464;
+}
+.container{
+        display: flex;
+        flex-direction: row;
+        background-color: #646464;
+        justify-content:space-around;
+        position: relative;
+        font-size:30px;
+        font-family: 'Jomhuria';
+        margin-top: 25%;
+        border-style: solid;
+        
+
+}
+
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.tpn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+.mundial{
+    background-color:#646464;
+    width: 364px;
+    height: 163px;
+    left: 33px;
+    top: 274px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+.nacional{
+    background-color: #646464;
+    width: 364px;
+    height: 163px;
+    left: 33px;
+    top: 274px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+    
+
+
+}
+.regional{
+    background-color: #646464;
+    width: 364px;
+    height: 163px;
+    left: 33px;
+    top: 274px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+
+}
+.noticias{
+    position: absolute;
+    width: 845px;
+    height: 541px;
+    left: 486px;
+    top: 470px;
+    display: flex;
+    background: #646464;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border-style: groove;
+
+}
+.nt1{
+    width: 250px;
+    height: 350px;
+    margin-top: 85px;
+    border-style: double;
+    
+    
+
+    background: #C9FFBC;
+    border-radius: 25px;
+
+}
+.nt2{
+    width: 250px;
+    height:350px;
+    margin-top: 85px;
+    border-style: double;
+    
+    
+    
+    
+
+    background: #C9FFBC;
+    border-radius: 25px;
+
+    
+
+
+}
+.nt3{
+
+    width: 250px;
+    height: 350px;
+    margin-top: 85px;
+    border-style: double;
+    
+    
+    
+
+    background: #C9FFBC;
+    border-radius: 25px;
+
+}
+@media(max-width:768px){
+    .noticias{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .nt1{width: 95%;
+        margin-bottom: 10px;
+
+    }
+    .nt2{
+        width: 95%;
+        margin-bottom: 10px;
+
+    }
+    .nt3{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .container{
+        margin-top: 40%;
+    }
+   
+    
+}
